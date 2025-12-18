@@ -4,14 +4,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://github.com/DPFM-carfinder/car-finder-app",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+    "deploy": "gh-pages -d dist -r https://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@github.com/DPFM-carfinder/car-finder-app.git"  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
